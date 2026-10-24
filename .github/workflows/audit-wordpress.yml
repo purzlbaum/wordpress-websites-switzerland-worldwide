@@ -1,0 +1,44 @@
+name: Audit WordPress websites
+
+on:
+  schedule:
+    # First day of each month, 07:23 UTC.
+    - cron: '23 7 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: wordpress-audit-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+
+      - name: Test audit behavior
+        run: python -m unittest discover -s tests -v
+
+      - name: Check Swiss and worldwide website lists
+        run: python scripts/audit_wordpress.py
+
+      - name: Add results to the run summary
+        run: cat audits/runs/*/summary.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload reports for manual review
+        uses: actions/upload-artifact@v7
+        with:
+          name: wordpress-audit-${{ github.run_id }}-${{ github.run_attempt }}
+          path: audits/runs/
+          if-no-files-found: error
+          retention-days: 90

@@ -1,2 +1,4 @@
 
 ._wordpress-meetups-switzerland.md
+__pycache__/
+audits/runs/

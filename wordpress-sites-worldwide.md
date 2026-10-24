@@ -7,23 +7,13 @@ Please submit changes and additions to this repository via Patch or Pull Request
 - [Barrel](https://www.barrelny.com/)
 - [XWP](https://xwp.co/)
 
-## Cars
-- [Mercedes Benz](https://www.mercedes-benz.com/)
-
 ## Comedians
 - [Russell Brand](https://www.russellbrand.com/)
-
-## Designers
-- [Tobias van Schneider](http://www.vanschneider.com/blog/)
 
 ## Events
 - [TED Blog](http://blog.ted.com/) (wordpress.com VIP)
 
-## Famous people
-- [Michelle Hunziker](http://www.michellehunziker.it/en)
-
 ## Foundations
-- [Obama Foundation](https://www.obama.org/)
 - [Jacobs Foundation](http://jacobsfoundation.org/)
 
 ## Magazine
@@ -31,27 +21,10 @@ Please submit changes and additions to this repository via Patch or Pull Request
 - [Quanta Magazine](https://www.quantamagazine.org/)
 
 ## Media / News
-- [CNN Blogs](http://edition.cnn.com/exchange/blogs/index.html) (wordpress.com VIP)
-- [FiveThirthyEight](http://fivethirtyeight.com/) (wordpress.com VIP)
-- [New Yorker](http://www.newyorker.com/) (wordpress.com VIP)
-- [Quartz](http://qz.com/) (wordpress.com VIP)
-- [Reuters Blogs](http://blogs.reuters.com/us/)
 - [The Sun](https://www.thesun.co.uk/) (Leading UK tabloid newspaper)
-
-## Music
-- [Alanis Morissette](http://alanis.com/)
-- [Alicia Keys](http://aliciakeys.com/)
-- [Beyoncé](http://www.beyonce.com/)
 
 ## Photography
 - [Nick Turpin](http://nickturpin.com/)
 
-## Sports
-- [Rogers Cup, Tennis](http://www.rogerscup.com/)
-
 ## Tech
 - [TechCrunch](http://techcrunch.com/) (wordpress.com VIP)
-
-## Webdesign/UI/UX
-- [Adobe](http://blogs.adobe.com/)
-- [SmashingMagazine](https://www.smashingmagazine.com/)
