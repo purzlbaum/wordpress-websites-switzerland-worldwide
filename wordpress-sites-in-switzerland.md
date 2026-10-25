@@ -140,9 +140,6 @@ Please submit changes and additions to this repository via Patch or Pull Request
 ## Politics
 - [Digitale Nachhaltigkeit](https://www.digitale-nachhaltigkeit.ch/)
 
-## Portfolio
-- [MMXV](https://mmxv.io/)
-
 ## Property market
 - [Müller & Müller Immobilien](http://www.mm-immob.ch/)
 - [Peach Property Group](http://www.peachproperty.com/)
