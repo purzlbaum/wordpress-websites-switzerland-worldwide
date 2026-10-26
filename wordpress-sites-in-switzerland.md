@@ -6,7 +6,6 @@ Please submit changes and additions to this repository via Patch or Pull Request
 
 ## Agencies, not including web development agencies
 - [Bernet PR](https://bernet.ch/)
-- [NeidhartSchön](https://neidhartschoen.ch/)
 - [Process Group](http://process-group.com/)
 - ([Web development agencies are here](https://github.com/WPSwitzerland/wordpress-websites-switzerland-worldwide/blob/master/wordpress-developers-and-agencies-switzerland.md).)
 
