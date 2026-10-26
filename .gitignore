@@ -1,4 +1,14 @@
 
 ._wordpress-meetups-switzerland.md
 __pycache__/
-audits/runs/
+
+# Local automation, instructions and audit reports
+AGENTS.md
+agents.md
+*.py
+*.txt
+*.sml
+*.yml
+*.yaml
+*.json
+/audits/
